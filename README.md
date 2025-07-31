@@ -22,6 +22,35 @@ Conteúdo da disciplina de Design e Arquitetura de Software 2
   - security: criar mecanismos de identidade seguro, segurança em todas camadas, rastreabilidade, mitigação de estratégias
   - reliabillity: recuperação rápida, mitigar desrupção, dinâmico demanda de computador
   - performance efficiency: manter recursos eficientes, escalar de forma automatica, democratizar uso de tecnologias novas
-  - cost: 
-  - sustainabillity:
+  - cost optimization: medir eficiência, eliminar oq não está sendo utilizado, modelo por consumo, serviço gerenciado 
+  - sustainabillity: utilizar recursos de forma sustentável
 
+### Well architected tool
+- testar se o sistema está "well"
+
+### Trade-offs
+- escolhas
+- abrir mão de consistencia para ter performance, ex: tiktok, reels
+- escalabilidade por custo (cloudwatch, "vigia" se esta aumentando consumo e tudo mais)
+
+### Design de serviços, não de servidores
+- fila
+- site estático
+- autenticação
+
+### Escolher tamanho errado
+- storage errado
+- latencia
+- concorrencia
+
+### evitar ponto singulares de falhas
+- database secundário como cópia e assumir caso caia
+
+### otimização de custo
+- tem que medir e monitorar
+- o que devo monitorar?
+- desativar recursos que não uso
+- serviços gerenciados!
+
+
+  
