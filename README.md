@@ -1,7 +1,7 @@
 # das-2-2025-2
 Conteúdo da disciplina de Design e Arquitetura de Software 2
 
-# Aula 30/07
+# Aula 30/07/2025
 
 ## CURSO AWS
 
@@ -53,4 +53,42 @@ Conteúdo da disciplina de Design e Arquitetura de Software 2
 - serviços gerenciados!
 
 
-  
+# AULA 06/08/2025
+
+## REGIOES E DATA CENTERS
+
+### AZ
+- Dentro de regioes disponiveis da aws tem zonas, onde podemos subir servidores
+- AZ estrutura logica da AWS, um conjunto de datacenters e é composto por um ou mais datacenters
+- AZs são interconectadas
+- pode escolher a rede que voce quer usar
+- ALTA DISPONIBILIDADE!
+
+### LOCAL ZONE
+- ip local que esta em uma zona diferente
+
+### DATA CENTERS
+- ninguem tem acesso aos data centers da AWS
+
+### AWS PoPs
+- edge location = data centers e servers próximos dos clientes
+- regional edge cache = ponte entre origin server e edge location
+
+
+## SECURING ACCESS
+
+### INTRODUCING
+- modelo de responsabilidade da AWS, sempre compartilhada
+- IaaS, PaaS, SaaS
+
+### DESIGN PRINCIPLES FOR THE SECURITY PILLAR
+- cuidar das credenciais
+- protecao de dados em transito e estatico
+- DEIXAR PESSOAS LONGES DE DADOS
+- seguranca em todas as camadas
+- manter traceabilidade
+- preparar treinamentos de seguranca
+- automatizar processos de seguranca
+
+
+
