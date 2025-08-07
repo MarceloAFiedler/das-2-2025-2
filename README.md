@@ -90,5 +90,30 @@ Conteúdo da disciplina de Design e Arquitetura de Software 2
 - preparar treinamentos de seguranca
 - automatizar processos de seguranca
 
+### PRINCIPIO DE PRIVILEGIO MINIMO
+- nao de adm pra todo mundo
 
+### USAR CRIPTOGRAFIA EM TODO LUGAR!
 
+### AUTHENTICATING AND SECURING ACCESS
+- AUTENTICACAO = saber se voce é voce mesmo, quem voce é, o que voce sabe, o que voce tem
+- AUORIZACAO = dizer o que voce pode fazer
+
+### AWS IAM
+- criar users, group, role e policy
+- integrar AWS services
+- MFA multi factor aunthentication
+- permissao em nivel de arquivo
+
+### BOAS PRATICAS
+- privilegio minimo
+- MFA
+- rotacao de credeniais
+- senhas fortes
+- credenciais locais protegidas
+- aws organization
+- aws cloudtrail!!!
+- proteger usuario raiz
+
+### ROLE
+- credencial temporaria
