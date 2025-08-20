@@ -117,3 +117,26 @@ Conteúdo da disciplina de Design e Arquitetura de Software 2
 
 ### ROLE
 - credencial temporaria
+
+
+# AULA 20/08/2025
+
+## MODULO 4
+
+### STORAGE
+- block storage, armazenado em blocos de tamanho fixados
+- file storage, pastas compartilhadas
+- object storage, subir objetos na internet, baseado em atributos e metadados (metados = dados sobre dados)
+
+### AMAZON S3
+- virtualmente ilimitado
+- armazena em "buckets" que voce define
+- 5 tera de limite por objeto
+- ganha URL unica (n exposta pra net)
+- nome do bucket faz parte da URL
+- nao existe pasta, as "pastas" sao prefixos
+
+- usado para hospedar sites estaticos
+- suporta qualquer pico de demanda
+- utilizado para recuperacao de desastres
+- 
