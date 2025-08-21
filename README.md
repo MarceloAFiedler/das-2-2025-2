@@ -139,4 +139,9 @@ Conteúdo da disciplina de Design e Arquitetura de Software 2
 - usado para hospedar sites estaticos
 - suporta qualquer pico de demanda
 - utilizado para recuperacao de desastres
+
+### CORS
+- validacao que acontece no navegador
+- "negocio que enche o saco"
+- relacao de confianca entre o back e front
 - 
