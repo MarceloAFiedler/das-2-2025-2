@@ -144,4 +144,10 @@ Conteúdo da disciplina de Design e Arquitetura de Software 2
 - validacao que acontece no navegador
 - "negocio que enche o saco"
 - relacao de confianca entre o back e front
-- 
+
+
+  # AULA 27/08/2025
+
+  ### INVENTARIO S3
+  - gera relatorio dos objetos do bucket
+  - 
