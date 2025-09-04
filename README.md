@@ -146,8 +146,45 @@ Conteúdo da disciplina de Design e Arquitetura de Software 2
 - relacao de confianca entre o back e front
 
 
-  # AULA 27/08/2025
+# AULA 27/08/2025
 
-  ### INVENTARIO S3
-  - gera relatorio dos objetos do bucket
-  - 
+### INVENTARIO S3
+- gera relatorio dos objetos do bucket
+
+
+# AULA 03/09/2025
+
+## EC2
+
+### PQ MOVER DE S3 P/ EC2?
+- nao é por economia
+- mover porque quer um site dinâmico (backend)
+- EC2 permite sistemas dinâmicos!
+
+### ELASTIC COMPUTING CLOUD
+- "software toca no hardware"
+
+### VPS
+- um servidor compartilhado
+- localweb (brasileira)
+- ligthsail é a VPS da AWS
+
+### PAAS
+- fornecem um ambiente gerenciado para desenvolvimento, execução e implantação de aplicações
+
+### SERVERLESS
+- aws lambda põe micro VN (alexa)
+- fargate, container docker e sobe ele
+
+### CONTAINERS
+- elastic kubernetes service 
+- elastic container service
+
+### SERVICE CATEGORY DIFFERENTIATORS
+- VMs
+- Containers
+- VPAS
+- PaaS
+- Serverless
+
+### CRIANDO SERVER DE MINE KK
