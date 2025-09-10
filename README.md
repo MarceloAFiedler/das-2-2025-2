@@ -188,3 +188,38 @@ Conteúdo da disciplina de Design e Arquitetura de Software 2
 - Serverless
 
 ### CRIANDO SERVER DE MINE KK
+
+
+# AULA 10/09/2025
+
+## MODULO 5
+
+### AMAZON EBS
+
+- modificacao de volume
+- troca entre ssd e hd
+- persistent block
+-  mover de maquina pra outra
+- EBS indica a saude do HD para o cliente
+
+### FILED SHARED
+
+- EBS nao é file shared
+- S3 nao é um file shared
+- observacao fora do conteudo: AWS É DANADA
+- elastic file system (EFS)  e Amazon FSx são file shared
+
+### EFS
+
+- só LINUX
+- elastico
+- suporta petabyte
+- pode montar em varios computadores
+- pontos de montagem isolados
+
+
+### AMAZON FSx
+
+- multiproposito -> Windows e Linux ao mesmo tempo
+- não é elastico automatico
+- só aumenta! (sem sugestões maldosas ( ͡° ͜ʖ ͡°))
