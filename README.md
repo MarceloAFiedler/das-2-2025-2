@@ -223,3 +223,42 @@ Conteúdo da disciplina de Design e Arquitetura de Software 2
 - multiproposito -> Windows e Linux ao mesmo tempo
 - não é elastico automatico
 - só aumenta! (sem sugestões maldosas ( ͡° ͜ʖ ͡°))
+
+
+# AULA 17/09/2025
+
+### INSTANCE METADATA
+
+- uma api rest
+
+### AMI deployment models
+
+- basic AMI -> imagens limpas, básicão
+- golden AMI -> tudo pronto e configurado
+- silver AMI -> intermédio dos dois anteriores
+
+### PLACEMENTS GROUPS
+
+- mecanismo para interferir aonde a AWS vai colocar as maquinas virtuais dentros das regiões e az
+- escolher entre 3 estratégias:
+  - cluster (HPC) -> junta as maquinas (negativo = pation um, pation tudo)
+  - partition -> meio termo entre cluster e spread
+  - spread -> não pode parar (negativo = latencia alta)
+
+### PRICING
+
+- modelos de compra com desconto
+- modelos de reserva que dão desconto
+- modelos mais caro = modelo dedicado
+
+- planos on-demand, custa um rim
+- planos reserved, compromisso de 1 ano ou 3 anos
+- planos savings, compromisso por hora (em dólores)
+- planos ec2 spot, pega maquinas que nao ta sendo usadas
+
+## Amazon VPC
+
+### VPC
+
+- cria uma rede
+- configurações personalizaveis
