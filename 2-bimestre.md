@@ -65,8 +65,53 @@
 - analisar como aconteceu o problema
 
 
+# AULA 22/10/2025
 
+## route 53 (enderecos de dns)
 
+- dificilmente cai (raro, tirando segunda dia 20/10/2025)
+- resolve dns publico (na net) e privado (dentro da rede)
+
+### Policies
+  - Geolocalização -> Devolve um IP daquele país
+  - Latência -> Resolve o servidor mais próximo
+  - Peso -> 50% das req para X lugar, etc
+  - Failover -> To mandando para north-vir, north-vir caiu, manda pro Brasil
+  - Simples -> 1:1 (nome:IP)
+  - Multivalue -> retorna uma lista de IP e o cliente decide
+  - IP Based -> ip do lucaspacifico
+
+### dominios para saber
+- A -> ipv4
+- AAAA -> ipv6
+- cname -> um dns aponta pra outro
+- txt -> informacao qualquer que coloca no dns para provar que é seu mesmo
+
+## modulo 11: Automating Your Architecture
+
+- parar de fazer as coisas na mão, automatizar
+
+### IaC (infraestrutura como codigo)
+
+- definir um arquivo(template) descrevendo como tu precisa, e uma ferramenta faz pra voce
+- CloudFormation, ferramenta de iac da aws
+
+- beneficios:
+  - escreve um template e ele gera (pode guardar no git)
+  - reusabilidade
+  - cria stack
+
+### IaC services que usam CloudFormation
+- aws elastic beanstalk ***aprender
+- aws quick starts
+- aws seversless application model (SAM) ***aprender
+- aws amplify
+- aws cloud development kit
+
+### Amazon Q developer
+- IA generativa da aws
+- para devs e profissionais de ti
+- 
 
 
 
@@ -75,3 +120,5 @@
 
 
   
+
+
