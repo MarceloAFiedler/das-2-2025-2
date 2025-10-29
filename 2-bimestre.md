@@ -111,14 +111,80 @@
 ### Amazon Q developer
 - IA generativa da aws
 - para devs e profissionais de ti
-- 
+
+
+# AULA 29/10/2025
+
+## CACHING
+
+- pra redução de latencia
+
+### por que cache?
+
+- nao da pra toda vez bater no banco fazer a mesma query e voltar
+- dados que são acessados frequentes
+- dados muito pesados pra carregar
+- pra quando tem consultas lentas e caras
+- dados que são estáticos
+
+### trade-offs
+
+pros
+- performance previsivel
+- reduzir custo
+- reduz latencia
+
+contras
+- mudar a lógica
+- gerenciar o cache, manter no ar
+
+### TIPOS DE CACHING
+
+- cache em memoria
+- cache na aplicação inteira
+
+### CACHE CLOUDFRONT
+
+- CDN
+  - rede global de servidores pra entregar conteudos comuns
+
+- cache de imagem
+- cache de html, css e javascript
+
+- edge location
+  - perto do user
+  - cache menor
+    
+- regional edge location
+  - mais distante do usuario
+  - cache maior
+ 
+### Elastic Cache
+
+- quando tem problema de tempo de resposta
+- quando nao da mais tempo de responder
+- reduzir custo
+
+- pergunta pra ele (elasticache) primeiro, depois pro banco
+
+- MenCache
+  - basico
+  - rodar grandes nós com multiplos nucleos ou threads
+  - escala horizontal
+ 
+- Redis
+  - usa o disco
+  - suporta tipos de dados complexos
+  - pub/sub
+  - mapeamento
+
+- elasticache pode chegar ate 250 maquinas (o cluster)
+
+- TTL (time to live)
+  - segundos ate a key "patchon"
 
 
 
 
-
-
-
-  
 
 
