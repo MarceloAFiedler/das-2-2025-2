@@ -182,9 +182,25 @@ contras
 
 - TTL (time to live)
   - segundos ate a key "patchon"
+ 
+
+# AULA 05/11/2025
+
+## ACOMPLAMENTO
+
+- load balancer p/ desacoplar (faz checagem da saude da maquinas)
+- fila p/ desacoplar, poit-to-point messaging (producer -> queue -> consumer)
+
+### SQS Simple Queue Service
+
+- para desacoplar
+- mensagens so podem ter 256 KB
+- mensagens ficam na fila até serem deletadas ou passar do tempo
+- fila standard não garante ordem, mas sem limites de mensagens para processar
+- fila FIFO
 
 
-
-
+- fila é producer e consumer, um pra um
+- tópico é publisher e subscriber, um pra muitos
 
 
