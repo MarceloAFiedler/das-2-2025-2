@@ -204,3 +204,24 @@ contras
 - tópico é publisher e subscriber, um pra muitos
 
 
+# AULA 12/11/2025
+
+## Module 14: Building Serverless Architectures and Microservices
+
+- algumas coisas que perdi pq eu tava na fila :p 
+
+### contruir aplicacao serverless
+- serverless aplicacao vai rodar dentro da aws (nao serveless tem mais controle)
+- a maioria das tarefas a nuvem vai fazer
+- aws lambda faz isso
+
+### microservico com docker
+- maior que 15min
+- memoria maior que 10gb
+- custo reduzido
+- sistemas legados
+
+
+
+
+
